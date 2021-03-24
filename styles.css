@@ -1,0 +1,92 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    
+}
+
+section{
+    direction: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgb(1,65,136);
+    height: 100vh;
+}
+.container1{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+    margin-top: 10px;
+}
+.container1 div{
+    margin-right: 10px;
+}
+.container1 a{
+    text-decoration: none;
+    color: white;
+}
+.container1 i{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.container1 h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container1 p{
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.container2{
+    padding:0;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(5,51,101);
+    margin-top: 5vh;
+    height: 50vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.container2 h1{
+    color: rgb(0,191,109);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container2 div{
+    height: 80vh;
+}
+.container2 a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14,106,207);
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.container2 p{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
